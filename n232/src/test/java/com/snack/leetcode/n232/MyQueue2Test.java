@@ -4,18 +4,19 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MyQueueTest {
+public class MyQueue2Test {
 
-    private MyQueue myQueue;
+    private MyQueue2 myQueue;
 
     @Before
     public void setUp() throws Exception {
-        myQueue = new MyQueue();
+        myQueue = new MyQueue2();
     }
 
     @Test
     public void push() {
         myQueue.push(1);
+
     }
 
     @Test

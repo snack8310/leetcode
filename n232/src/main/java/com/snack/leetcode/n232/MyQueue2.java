@@ -2,53 +2,57 @@ package com.snack.leetcode.n232;
 
 import java.util.Stack;
 
-public class MyQueue {
+public class MyQueue2 {
 
-    private Stack<Integer> help;
-    private Stack<Integer> real;
+    private Stack<Integer> in;
+    private Stack<Integer> out;
 
     /**
      * Initialize your data structure here.
      */
-    public MyQueue() {
-        help = new Stack<>();
-        real = new Stack<>();
+    public MyQueue2() {
+        in = new Stack<>();
+        out = new Stack<>();
     }
 
     /**
      * Push element x to the back of queue.
      */
     public void push(int x) {
-        help = new Stack<>();
-        while (real.size() != 0) {
-            help.push(real.pop());
-        }
-        help.push(x);
-        real = new Stack<>();
-        while (help.size() != 0) {
-            real.push(help.pop());
-        }
+        in.push(x);
     }
 
     /**
      * Removes the element from in front of queue and returns that element.
      */
     public int pop() {
-        return real.pop();
+        if (out.size() == 0) {
+            in2out();
+        }
+        return out.pop();
+    }
+
+    private void in2out() {
+        while (in.size() != 0) {
+            out.push(in.pop());
+        }
     }
 
     /**
      * Get the front element.
      */
     public int peek() {
-        return real.peek();
+        if (out.size() == 0) {
+            in2out();
+        }
+        return out.peek();
     }
 
     /**
      * Returns whether the queue is empty.
      */
     public boolean empty() {
-        return real.empty();
+        return out.empty() && in.empty();
     }
 }
 
