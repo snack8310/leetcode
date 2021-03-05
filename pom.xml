@@ -13,6 +13,7 @@
     <modules>
         <module>n121</module>
         <module>n122</module>
+        <module>n232</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
