@@ -10,10 +10,4 @@ public class Solution {
         }
         return mp;
     }
-
-    public static void main(String[] args) {
-        int[] prices = {10, 14, 15, 18, 14, 22};
-        Solution s = new Solution();
-        System.out.println(s.maxProfit(prices));
-    }
 }
