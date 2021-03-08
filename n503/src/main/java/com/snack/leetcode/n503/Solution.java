@@ -1,10 +1,5 @@
 package com.snack.leetcode.n503;
 
-
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
-
 public class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int l = nums.length;
