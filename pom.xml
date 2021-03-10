@@ -14,8 +14,10 @@
         <module>n121</module>
         <module>n122</module>
         <module>n131</module>
+        <module>n224</module>
         <module>n232</module>
         <module>n503</module>
+        <module>n1047</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
