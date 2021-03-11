@@ -11,8 +11,8 @@ public class MyQueue2 {
      * Initialize your data structure here.
      */
     public MyQueue2() {
-        in = new Stack<>();
-        out = new Stack<>();
+        in = new Stack<Integer>();
+        out = new Stack<Integer>();
     }
 
     /**

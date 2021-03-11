@@ -11,20 +11,20 @@ public class MyQueue {
      * Initialize your data structure here.
      */
     public MyQueue() {
-        help = new Stack<>();
-        real = new Stack<>();
+        help = new Stack<Integer>();
+        real = new Stack<Integer>();
     }
 
     /**
      * Push element x to the back of queue.
      */
     public void push(int x) {
-        help = new Stack<>();
+        help = new Stack<Integer>();
         while (real.size() != 0) {
             help.push(real.pop());
         }
         help.push(x);
-        real = new Stack<>();
+        real = new Stack<Integer>();
         while (help.size() != 0) {
             real.push(help.pop());
         }
