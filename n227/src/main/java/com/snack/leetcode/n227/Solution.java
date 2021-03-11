@@ -19,13 +19,10 @@ public class Solution {
         int num = 0;
         char preSign = '+';
         for (int i = 0; i < n; i++) {
-            if (s.charAt(i) == O_BLANK) {
-                continue;
-            }
             if (Character.isDigit(s.charAt(i))) {
                 num = num * 10 + s.charAt(i) - '0';
             }
-            if (i == n - 1 || s.charAt(i) == O_PLUS || s.charAt(i) == O_MINUS || s.charAt(i) == O_MULTIPLY || s.charAt(i) == O_DIVIDE) {
+            if (s.charAt(i) != O_BLANK && !Character.isDigit(s.charAt(i)) || i == n - 1) {
                 if (preSign == O_PLUS) {
                     nums.push(num);
                 } else if (preSign == O_MINUS) {

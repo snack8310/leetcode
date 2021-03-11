@@ -21,7 +21,7 @@ public class SolutionTest {
 
     @Test
     public void calculate1() {
-        String input = "3/2";
+        String input = " 3/2 ";
         Assert.assertEquals(1, s.calculate(input));
     }
 
