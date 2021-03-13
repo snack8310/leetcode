@@ -26,6 +26,7 @@
         <module>n234</module>
         <module>n331</module>
         <module>n226</module>
+        <module>n705</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
