@@ -31,6 +31,7 @@
         <module>n706</module>
         <module>n654</module>
         <module>common-treenode</module>
+        <module>n54</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
