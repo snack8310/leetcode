@@ -22,17 +22,32 @@ public class TreeNodeUtils {
             return;
         }
         int i = 0;
+        int n = os.length;
         List<TreeNode> npLevels = new LinkedList<>();
         for (TreeNode treeNode : pLevels) {
             if (treeNode == null) {
                 continue;
             }
-            TreeNode left = new TreeNode(os[i++]);
+            if (i >= n) {
+                break;
+            }
+            TreeNode left = null;
+            if (os[i] != null) {
+                left = new TreeNode(os[i]);
+                npLevels.add(left);
+            }
             treeNode.left = left;
-            npLevels.add(left);
-            TreeNode right = new TreeNode(os[i++]);
+            i++;
+            if (i >= n) {
+                break;
+            }
+            TreeNode right = null;
+            if (os[i] != null) {
+                right = new TreeNode(os[i]);
+                npLevels.add(right);
+            }
             treeNode.right = right;
-            npLevels.add(right);
+            i++;
         }
         Integer[] nos = Arrays.copyOfRange(os, i, os.length);
         reserve(npLevels, nos);
