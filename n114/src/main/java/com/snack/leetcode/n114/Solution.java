@@ -1,5 +1,7 @@
 package com.snack.leetcode.n114;
 
+import com.snack.leetcode.common.treenode.TreeNode;
+
 public class Solution {
     public void flatten(TreeNode root) {
         if (root == null) {

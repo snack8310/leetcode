@@ -60,7 +60,14 @@ public class TreeNodeUtils {
             pLevels.add(root);
             reserve(pLevels, os);
         }
+        removeLastNull(os);
         return os.toArray(new Integer[os.size()]);
+    }
+
+    private static void removeLastNull(List<Integer> os) {
+        while (os.get(os.size() - 1) == null) {
+            os.remove(os.size() - 1);
+        }
     }
 
     private static void reserve(List<TreeNode> pLevels, List<Integer> os) {
@@ -74,9 +81,6 @@ public class TreeNodeUtils {
                 continue;
             }
             os.add(treeNode.val);
-            if (treeNode.left == null && treeNode.right == null) {
-                continue;
-            }
             npLevels.add(treeNode.left);
             npLevels.add(treeNode.right);
         }

@@ -37,6 +37,7 @@
         <module>n59</module>
         <module>n652</module>
         <module>n230</module>
+        <module>n538</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
