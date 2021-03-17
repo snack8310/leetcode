@@ -41,6 +41,9 @@
         <module>n115</module>
         <module>n1038</module>
         <module>n450</module>
+        <module>n701</module>
+        <module>n700</module>
+        <module>n98</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

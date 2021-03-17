@@ -54,6 +54,9 @@ public class TreeNodeUtils {
     }
 
     public static Integer[] createLevelOrderArrayFrom(TreeNode root) {
+        if(root == null){
+            return null;
+        }
         List<Integer> os = new LinkedList<>();
         List<TreeNode> pLevels = new LinkedList<>();
         if (root != null) {
