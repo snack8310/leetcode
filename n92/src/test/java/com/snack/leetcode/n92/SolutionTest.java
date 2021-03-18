@@ -1,10 +1,9 @@
 package com.snack.leetcode.n92;
 
+import com.snack.leetcode.common.listnode.ListNode;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

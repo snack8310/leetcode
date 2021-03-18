@@ -1,5 +1,7 @@
 package com.snack.leetcode.n234;
 
+import com.snack.leetcode.common.listnode.ListNode;
+
 public class Solution {
 
     ListNode left;

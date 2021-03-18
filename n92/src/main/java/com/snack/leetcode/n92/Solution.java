@@ -1,5 +1,7 @@
 package com.snack.leetcode.n92;
 
+import com.snack.leetcode.common.listnode.ListNode;
+
 public class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         return this.reverse(head, left, right);

@@ -1,5 +1,7 @@
 package com.snack.leetcode.n25;
 
+import com.snack.leetcode.common.listnode.ListNode;
+
 public class Solution {
 
     public ListNode reverseKGroup(ListNode head, int k) {

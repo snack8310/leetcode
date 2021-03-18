@@ -1,5 +1,6 @@
 package com.snack.leetcode.n234;
 
+import com.snack.leetcode.common.listnode.ListNode;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
