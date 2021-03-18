@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     Solution s;
@@ -20,7 +18,7 @@ public class SolutionTest {
     @Test
     public void isValidBST() {
         Integer[] os = {5, 1, 4, null, null, 3, 6};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         boolean out = s.isValidBST(root);
         Assert.assertFalse(out);
     }
@@ -28,7 +26,7 @@ public class SolutionTest {
     @Test
     public void isValidBST2() {
         Integer[] os = {1, 1};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         boolean out = s.isValidBST(root);
         Assert.assertFalse(out);
     }
@@ -36,7 +34,7 @@ public class SolutionTest {
     @Test
     public void isValidBST3() {
         Integer[] os = {5, 4, 6, null, null, 3, 7};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         boolean out = s.isValidBST(root);
         Assert.assertFalse(out);
     }

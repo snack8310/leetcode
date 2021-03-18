@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CodecTest {
 
     Codec ser;
@@ -22,7 +20,7 @@ public class CodecTest {
     @Test
     public void serialize() {
         Integer[] input = {1, 2, 3, null, null, 4, 5};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(input);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(input);
         TreeNode ans = deser.deserialize(ser.serialize(root));
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(ans);
         Assert.assertArrayEquals(input, out);

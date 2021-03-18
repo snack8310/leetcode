@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     Solution s;
@@ -20,7 +18,7 @@ public class SolutionTest {
     @Test
     public void deleteNode() {
         Integer[] os = {5, 3, 6, 2, 4, null, 7};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         TreeNode outTree = s.deleteNode(root, 3);
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(outTree);
         Integer[] expert = {5, 4, 6, 2, null, null, 7};
@@ -30,7 +28,7 @@ public class SolutionTest {
     @Test
     public void deleteNode2() {
         Integer[] os = {5, 3, 6, 2, 4, null, 7};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         TreeNode outTree = s.deleteNode(root, 0);
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(outTree);
         Integer[] expert = {5, 3, 6, 2, 4, null, 7};

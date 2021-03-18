@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class TreeNodeUtils {
-    public static TreeNode createTreeNodeFromLevelOrder(Integer[] os) {
+    public static TreeNode toTreeNodeFromLevelOrder(Integer[] os) {
         if (os == null || os.length == 0) {
             return null;
         }

@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     Solution s;
@@ -21,7 +19,7 @@ public class SolutionTest {
     public void bstToGst() {
 
         Integer[] os = {4, 1, 6, 0, 2, 5, 7, null, null, null, 3, null, null, null, 8};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         TreeNode outTree = s.bstToGst(root);
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(outTree);
         Integer[] expert = {30, 36, 21, 36, 35, 26, 15, null, null, null, 33, null, null, null, 8};

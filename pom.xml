@@ -46,6 +46,7 @@
         <module>n98</module>
         <module>n297</module>
         <module>n341</module>
+        <module>n236</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -8,8 +8,6 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     private Solution s;
@@ -22,7 +20,7 @@ public class SolutionTest {
     @Test
     public void findDuplicateSubtrees() {
         Integer[] os = new Integer[]{1, 2, 3, 4, null, 2, 4, null, null, 4, null};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         List<TreeNode> out = s.findDuplicateSubtrees(root);
         Assert.assertEquals(2, out.size());
         Integer[] rowOut = TreeNodeUtils.createLevelOrderArrayFrom(out.get(0));
@@ -34,7 +32,7 @@ public class SolutionTest {
     @Test
     public void findDuplicateSubtrees2() {
         Integer[] os = new Integer[]{0, 0, 0, 0, null, null, 0, null, null, null, 0};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         List<TreeNode> out = s.findDuplicateSubtrees(root);
         Assert.assertEquals(1, out.size());
         Integer[] rowOut = TreeNodeUtils.createLevelOrderArrayFrom(out.get(0));
@@ -44,7 +42,7 @@ public class SolutionTest {
     @Test
     public void findDuplicateSubtrees3() {
         Integer[] os = new Integer[]{2,1,11,11,null,1};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         List<TreeNode> out = s.findDuplicateSubtrees(root);
         Assert.assertEquals(0, out.size());
     }

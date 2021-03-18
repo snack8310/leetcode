@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
     Solution s;
@@ -20,7 +18,7 @@ public class SolutionTest {
     @Test
     public void searchBST() {
         Integer[] os = {4, 2, 7, 1, 3};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         TreeNode outTree = s.searchBST(root, 2);
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(outTree);
         Integer[] expert = {2, 1, 3};
@@ -30,7 +28,7 @@ public class SolutionTest {
     @Test
     public void searchBST2() {
         Integer[] os = {4, 2, 7, 1, 3};
-        TreeNode root = TreeNodeUtils.createTreeNodeFromLevelOrder(os);
+        TreeNode root = TreeNodeUtils.toTreeNodeFromLevelOrder(os);
         TreeNode outTree = s.searchBST(root, 5);
         Integer[] out = TreeNodeUtils.createLevelOrderArrayFrom(outTree);
         Assert.assertNull(out);
