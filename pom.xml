@@ -50,6 +50,7 @@
         <module>n222</module>
         <module>n1603</module>
         <module>n130</module>
+        <module>n990</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
