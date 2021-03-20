@@ -53,6 +53,7 @@
         <module>n990</module>
         <module>n568</module>
         <module>n146</module>
+        <module>n460</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
