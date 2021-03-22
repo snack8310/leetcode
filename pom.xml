@@ -57,6 +57,7 @@
         <module>n73</module>
         <module>n295</module>
         <module>n191</module>
+        <module>n355</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
