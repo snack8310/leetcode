@@ -62,6 +62,7 @@
         <module>n739</module>
         <module>n239</module>
         <module>n456</module>
+        <module>n225</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
