@@ -67,6 +67,7 @@
         <module>n1011</module>
         <module>n82</module>
         <module>n141</module>
+        <module>n142</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
