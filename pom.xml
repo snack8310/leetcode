@@ -76,6 +76,7 @@
         <module>n567</module>
         <module>n61</module>
         <module>n438</module>
+        <module>n3</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
