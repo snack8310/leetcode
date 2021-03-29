@@ -79,6 +79,7 @@
         <module>n3</module>
         <module>n173</module>
         <module>n380</module>
+        <module>n190</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
