@@ -84,6 +84,7 @@
         <module>n74</module>
         <module>n316</module>
         <module>n1081</module>
+        <module>n26</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
