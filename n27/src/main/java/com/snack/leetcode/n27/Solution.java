@@ -1,4 +1,4 @@
-package om.snack.leetcode.n27;
+package com.snack.leetcode.n27;
 
 public class Solution {
     public int removeElement(int[] nums, int val) {
