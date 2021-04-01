@@ -92,6 +92,7 @@
         <module>n1006</module>
         <module>n1</module>
         <module>n509</module>
+        <module>n322</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
