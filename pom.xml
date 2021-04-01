@@ -91,6 +91,7 @@
         <module>n283</module>
         <module>n1006</module>
         <module>n1</module>
+        <module>n509</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
