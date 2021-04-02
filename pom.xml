@@ -93,6 +93,7 @@
         <module>n1</module>
         <module>n509</module>
         <module>n322</module>
+        <module>o1721</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
