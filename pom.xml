@@ -96,6 +96,7 @@
         <module>o1721</module>
         <module>n494</module>
         <module>n1143</module>
+        <module>n72</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
