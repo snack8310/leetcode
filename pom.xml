@@ -97,6 +97,7 @@
         <module>n494</module>
         <module>n1143</module>
         <module>n72</module>
+        <module>n781</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
