@@ -101,6 +101,7 @@
         <module>n354</module>
         <module>n88</module>
         <module>n80</module>
+        <module>n53</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
