@@ -104,6 +104,7 @@
         <module>n53</module>
         <module>n81</module>
         <module>n583</module>
+        <module>n153</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
