@@ -112,6 +112,8 @@
         <module>n416</module>
         <module>n264</module>
         <module>n518</module>
+        <module>n179</module>
+        <module>o45</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
