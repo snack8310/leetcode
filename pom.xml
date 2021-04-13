@@ -115,6 +115,7 @@
         <module>n179</module>
         <module>o45</module>
         <module>n435</module>
+        <module>n783</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
