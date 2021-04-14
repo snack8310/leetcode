@@ -118,6 +118,7 @@
         <module>n783</module>
         <module>n530</module>
         <module>n208</module>
+        <module>n452</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
