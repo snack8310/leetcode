@@ -126,6 +126,7 @@
         <module>n55</module>
         <module>n45</module>
         <module>n10</module>
+        <module>n887</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
