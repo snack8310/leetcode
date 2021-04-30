@@ -13,7 +13,7 @@ public class Solution {
         List<Integer> ret = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             if (nums[i] <= n) {
-                ret.add(nums[i]);
+                ret.add(i + 1);
             }
         }
         return ret;
