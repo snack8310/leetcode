@@ -152,6 +152,7 @@
         <module>n137</module>
         <module>n372</module>
         <module>n448</module>
+        <module>n690</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
