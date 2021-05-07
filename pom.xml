@@ -164,6 +164,7 @@
         <module>n877</module>
         <module>n319</module>
         <module>n1486</module>
+        <module>n560</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
