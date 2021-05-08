@@ -167,6 +167,7 @@
         <module>n560</module>
         <module>n1109</module>
         <module>n1723</module>
+        <module>n215</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
