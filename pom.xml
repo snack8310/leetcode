@@ -171,6 +171,7 @@
         <module>n1482</module>
         <module>n872</module>
         <module>n241</module>
+        <module>n1734</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
