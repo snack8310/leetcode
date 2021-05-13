@@ -175,6 +175,7 @@
         <module>n659</module>
         <module>n1310</module>
         <module>n969</module>
+        <module>n1269</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
