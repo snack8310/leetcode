@@ -180,6 +180,7 @@
         <module>n12</module>
         <module>n13</module>
         <module>n776</module>
+        <module>n1296</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
