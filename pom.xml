@@ -183,6 +183,7 @@
         <module>n1296</module>
         <module>n846</module>
         <module>n2</module>
+        <module>n394</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
