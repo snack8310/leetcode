@@ -5,7 +5,7 @@ import com.snack.leetcode.common.treenode.TreeNode;
 public class Solution {
     public TreeNode[] splitBST(TreeNode root, int target) {
         if (root == null) {
-            return new TreeNode[]{};
+            return new TreeNode[]{null, null};
         }
         if (root.val <= target) {
             TreeNode[] bns = splitBST(root.right, target);
