@@ -199,6 +199,7 @@
         <module>n1035</module>
         <module>n5</module>
         <module>n810</module>
+        <module>n175</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
