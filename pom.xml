@@ -201,6 +201,7 @@
         <module>n810</module>
         <module>n175</module>
         <module>n206</module>
+        <module>n1707</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
