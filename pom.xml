@@ -203,6 +203,7 @@
         <module>n206</module>
         <module>n1707</module>
         <module>o24</module>
+        <module>o3</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
