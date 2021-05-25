@@ -206,6 +206,7 @@
         <module>o3</module>
         <module>n20</module>
         <module>n664</module>
+        <module>n1787</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
