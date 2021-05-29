@@ -216,6 +216,7 @@
         <module>n15</module>
         <module>n477</module>
         <module>n4</module>
+        <module>n1074</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
