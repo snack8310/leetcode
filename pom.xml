@@ -222,6 +222,7 @@
         <module>n200</module>
         <module>能42</module>
         <module>n342</module>
+        <module>o38</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
