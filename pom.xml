@@ -220,6 +220,8 @@
         <module>n143</module>
         <module>o22</module>
         <module>n200</module>
+        <module>能42</module>
+        <module>n342</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
