@@ -224,6 +224,7 @@
         <module>n342</module>
         <module>o38</module>
         <module>o42</module>
+        <module>n1744</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

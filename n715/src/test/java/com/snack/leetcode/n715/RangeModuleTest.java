@@ -26,7 +26,7 @@ public class RangeModuleTest {
     }
 
     //["RangeModule","addRange","queryRange","removeRange","removeRange","addRange","queryRange","addRange","queryRange","removeRange"]
-    //[[],[5,8],[3,4],[5,6],[3,6],[1,3],[2,3],[4,8],[2,3],[4,9]]
+    //[[},{5,8},{3,4},{5,6},{3,6},{1,3},{2,3},{4,8},{2,3},{4,9]]
 
     @Test
     public void queryRange2() {
@@ -93,7 +93,7 @@ public class RangeModuleTest {
     }
 
     //["RangeModule","addRange","addRange","addRange","queryRange","queryRange","queryRange","removeRange","queryRange"]
-//[[],[10,180],[150,200],[250,500],[50,100],[180,300],[600,1000],[50,150],[50,100]]
+//[[},{10,180},{150,200},{250,500},{50,100},{180,300},{600,1000},{50,150},{50,100]]
     @Test
     public void queryRange6() {
         RangeModule obj = new RangeModule();
