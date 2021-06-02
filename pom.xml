@@ -227,6 +227,7 @@
         <module>n1744</module>
         <module>n415</module>
         <module>n14</module>
+        <module>n523</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
