@@ -231,6 +231,7 @@
         <module>o9</module>
         <module>n9</module>
         <module>n525</module>
+        <module>n160</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
