@@ -231,6 +231,7 @@
         <module>n525</module>
         <module>n160</module>
         <module>n203</module>
+        <module>n103</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
