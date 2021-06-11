@@ -238,6 +238,7 @@
         <module>n124</module>
         <module>n1049</module>
         <module>n879</module>
+        <module>n279</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
