@@ -246,6 +246,7 @@
         <module>n852</module>
         <module>n65</module>
         <module>n483</module>
+        <module>n1239</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
