@@ -249,6 +249,7 @@
         <module>n1239</module>
         <module>n1600</module>
         <module>n401</module>
+        <module>o15</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
